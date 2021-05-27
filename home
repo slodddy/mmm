@@ -1,0 +1,23 @@
+<html> 
+    <head>
+        <title> &#127826 On Cherries </title>
+         <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style></style>
+    </head>
+  
+  <body> 
+
+<ul class="flex-container">
+  <li class="flex-item">
+    <div class="background-item">
+    <h1>
+    hallo
+        </h1></li>
+  <li class="flex-item">3</li>
+
+
+</ul>
+    
+         </body>
+</html>
