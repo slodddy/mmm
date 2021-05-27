@@ -1,0 +1,52 @@
+Stylesheet 
+
+
+<-- Ingredients for flexbox --> 
+ 
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: auto;
+  list-style: none;
+  width: 1440px
+}
+
+  .flex-item {
+  background: ;
+  border: 2px solid #FF0000;
+  padding: 5px;
+  width: 600px;
+  height: 800px;
+  margin-top: 100px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+/*maybe delete*/.flex-item img {
+  background: url("https://cdn.glitch.com/8b5f9e5b-96ff-484e-a65f-2ef62c1d2ff3%2FSchermafbeelding%202021-05-27%20om%2016.07.53.png?v=1622124492189");
+  display: inline-block;
+  background-size: cover;
+}
+
+.background-item {
+  background-image: url(https://cdn.glitch.com/8b5f9e5b-96ff-484e-a65f-2ef62c1d2ff3%2Ftest-achtergrond.png?v=1622127868659);
+  width= 480px;
+  height: 700px;
+  line-height: 0;
+}
+
+.background-container {
+  background-image: url(https://cdn.glitch.com/8b5f9e5b-96ff-484e-a65f-2ef62c1d2ff3%2Fpaginas.png?v=1622129868268);
+  width= 480px;
+  height: 700px;
+  line-height: 0;
+}
