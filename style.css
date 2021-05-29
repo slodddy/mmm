@@ -1,52 +1,95 @@
-Stylesheet 
+<-- styles for the index screen --> 
 
+ .notitieboek {
+width: 100%
+float: right;
+position: absolute;
+top: 10%;
+right: 20%;
+width: 600px;
+height: 800px;
+display: inline-block;
+    }
 
-<-- Ingredients for flexbox --> 
+.notitieboek .notitieboek-top {
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 99;
+    }
+
+.notitieboek:hover .notitieboek-top {
+display: inline;
+    }
+
+h1 { 
+padding-top: 40%;
+padding-left: 10%; 
+position: absolute;
+color: red;
+}
+
+<-- styles for home screen --> 
+  
+      
+section {
+width: 100%; 
+float: left; }
+
  
-* {
-  box-sizing: border-box;
-}
+left { 
+background-image: url("https://cdn.glitch.com/1058ffa4-89f3-441a-a9dc-a8c1ac3194ba%2Flinks-test1.png?v=1622284331362");
+background-repeat: no-repeat; 
+background-position: right;
+height: 800px; 
+float: left; 
+width: 50%;
+      }
+      
+.left-text {
+color: red;  
+padding-left: 40%;
+padding-top: 10%
+      }
+      
+right { 
+background-image: url("https://cdn.glitch.com/1058ffa4-89f3-441a-a9dc-a8c1ac3194ba%2FRIGHT.png?v=1622285883310");
+background-repeat: no-repeat; 
+height: 800px; 
+float: left; 
+Left: 10%;
+width: 50%;}
 
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  padding: 0;
-  margin: auto;
-  list-style: none;
-  width: 1440px
-}
+.right-text {
+color: red;  
+padding-left: 14%;
+padding-top: 10%; 
+font-size: 6px;
+      }
+  
+header {
+padding: 50px;
+text-align: center;
+font-size: 35px;
+color: red; }
 
-  .flex-item {
-  background: ;
-  border: 2px solid #FF0000;
-  padding: 5px;
-  width: 600px;
-  height: 800px;
-  margin-top: 100px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
+<-- Recipe --> 
 
-/*maybe delete*/.flex-item img {
-  background: url("https://cdn.glitch.com/8b5f9e5b-96ff-484e-a65f-2ef62c1d2ff3%2FSchermafbeelding%202021-05-27%20om%2016.07.53.png?v=1622124492189");
-  display: inline-block;
-  background-size: cover;
-}
-
-.background-item {
-  background-image: url(https://cdn.glitch.com/8b5f9e5b-96ff-484e-a65f-2ef62c1d2ff3%2Ftest-achtergrond.png?v=1622127868659);
-  width= 480px;
-  height: 700px;
-  line-height: 0;
-}
-
-.background-container {
-  background-image: url(https://cdn.glitch.com/8b5f9e5b-96ff-484e-a65f-2ef62c1d2ff3%2Fpaginas.png?v=1622129868268);
-  width= 480px;
-  height: 700px;
-  line-height: 0;
+    .recipe-block {
+float: left; 
+width: 500px; height: 500px;
+position: relative;
+top: 380px; left: 300px;
+border-style: solid;
+border-width: thick;
+background-color: white;
+padding: 30px;
+color: red 10px;
+    }
+    
+.recipe-photo {
+background-image: url("https://cdn.glitch.com/1058ffa4-89f3-441a-a9dc-a8c1ac3194ba%2Fditherit%20cherry.png?v=1622291508265");
+background-repeat: no-repeat; 
+top: 10; 
 }
